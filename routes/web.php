@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
+=======
+    // return view('welcome');
+	// header("Location:".action([App\Http\Controllers\Home\IndexController::class, 'geteich']));
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
 	return redirect(action([App\Http\Controllers\Getrich\IndexController::class, 'index']));
 
 
@@ -28,7 +33,11 @@ Route::prefix('/getrich')->group(function () {
 });
 
 
+<<<<<<< HEAD
 Route::prefix('/api')->group(function () {
     Route::post('/clientNotice',  [App\Http\Controllers\ApiController::class, 'clientNotice']);
 });
+=======
+
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
 

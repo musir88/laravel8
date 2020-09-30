@@ -11,11 +11,17 @@
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
+<<<<<<< HEAD
         "guzzlehttp/guzzle": "^7.1",
         "laravel/framework": "^8.0",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.0",
         "livewire/livewire": "^2.0"
+=======
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.0",
+        "laravel/tinker": "^2.0"
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -25,7 +31,11 @@
         "phpunit/phpunit": "^9.3"
     },
     "config": {
+<<<<<<< HEAD
         "optimize-autoloader": true, 
+=======
+        "optimize-autoloader": true,
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
         "preferred-install": "dist",
         "sort-packages": true
     },

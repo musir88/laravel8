@@ -67,7 +67,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'timezone' => 'PRC',
+=======
+    'timezone' => 'UTC',
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
 
     /*
     |--------------------------------------------------------------------------
@@ -161,6 +165,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
         /*
          * Package Service Providers...
          */
@@ -173,10 +181,13 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         App\Providers\FortifyServiceProvider::class,
 
 
         App\Providers\NoticeProvider::class,
+=======
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
 
     ],
 
@@ -230,8 +241,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+<<<<<<< HEAD
         'NoticeFacades'  => \App\Facades\NoticeFacades::class,
 
+=======
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
     ],
 
 ];

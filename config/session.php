@@ -18,7 +18,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'driver' => env('SESSION_DRIVER', 'database'),
+=======
+    'driver' => env('SESSION_DRIVER', 'file'),
+>>>>>>> c4fc3a253256a3ca29684a724970af790bd99a08
 
     /*
     |--------------------------------------------------------------------------
